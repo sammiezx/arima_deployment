@@ -1,0 +1,16 @@
+/* src/components/Carousel.css */
+.carousel-container {
+  overflow: hidden;
+}
+
+.carousel-wrapper {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-item {
+  min-width: 100%;
+  box-sizing: border-box;
+}
+
+/* Additional styling as needed for the carousel items */

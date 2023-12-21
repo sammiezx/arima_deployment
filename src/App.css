@@ -70,3 +70,8 @@ a:hover {
 h1, h2, h3 {
   color: #ffffff; /* Set heading colors to white */
 }
+
+.app-container {
+  text-align: center;
+  padding: 20px;
+}

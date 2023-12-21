@@ -1,0 +1,39 @@
+/* src/components/GeologicalNewsComponent.css */
+
+/* Container styles */
+.geological-news-container {
+  background-color: #d18b2269;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+
+/* Title styles */
+h2 {
+  color: #ff9800;
+  font-size: 24px; /* Adjust font size */
+  margin-bottom: 10px; /* Add margin for spacing */
+}
+
+/* Loading and error styles */
+.loading-text, .error-text {
+  color: #ef6c00;
+  font-size: 18px; /* Adjust font size */
+}
+
+/* News list styles */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+ul li {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #ff5722;
+}
+
+/* Additional styling for geological news list as needed */
