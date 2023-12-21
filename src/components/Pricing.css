@@ -1,0 +1,26 @@
+
+.pricing {
+    background-color: rgba(145, 44, 246, 0.052);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .pricing-items {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed to control spacing between items */
+  }
+  
+  .pricing-item {
+    width: 200px; /* Set a fixed width for each pricing item */
+    background-color: rgba(140, 63, 255, 0.182);
+    padding: 15px;
+    border-radius: 8px;
+    margin: 0 10px; /* Adjust as needed to control spacing between items */
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .pricing-item:hover {
+    background-color: rgba(77, 144, 254, 0.9); /* Change pricing item background color on hover */
+  }

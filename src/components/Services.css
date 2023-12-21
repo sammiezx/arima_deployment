@@ -1,0 +1,20 @@
+
+.services {
+  background-color: rgba(135, 44, 246, 0.052); /* Update background color */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.service-item {
+  margin-bottom: 20px;
+  background-color: rgba(108, 63, 255, 0.146); /* Add a background color to service items */
+  padding: 15px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease; /* Add smooth color transition on hover */
+}
+
+.service-item:hover {
+  background-color: rgba(77, 144, 254, 0.9); /* Change service item background color on hover */
+}
