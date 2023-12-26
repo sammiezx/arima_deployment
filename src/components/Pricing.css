@@ -1,26 +1,48 @@
-
+/* src/styles/Pricing.css */
 .pricing {
-    background-color: rgba(145, 44, 246, 0.052);
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
-    text-align: center;
-  }
-  
-  .pricing-items {
-    display: flex;
-    justify-content: space-around; /* Adjust as needed to control spacing between items */
-  }
-  
-  .pricing-item {
-    width: 200px; /* Set a fixed width for each pricing item */
-    background-color: rgba(140, 63, 255, 0.182);
-    padding: 15px;
-    border-radius: 8px;
-    margin: 0 10px; /* Adjust as needed to control spacing between items */
-    transition: background-color 0.3s ease, color 0.3s ease;
-  }
-  
-  .pricing-item:hover {
-    background-color: rgba(77, 144, 254, 0.9); /* Change pricing item background color on hover */
-  }
+  background-color: rgba(145, 44, 246, 0.052);
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.pricing-items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.pricing-item {
+  width: 450px; /* Increased width for wider boxes */
+  background-color: rgba(140, 63, 255, 0.182);
+  padding: 15px;
+  border-radius: 8px;
+  margin: 0 10px;
+  transition: background-color 0.3s ease, color 0.3s ease, height 0.5s ease;
+  overflow: hidden;
+  height: 160px;
+}
+
+.pricing-item.baremetal:hover {
+  background-color: rgba(77, 144, 254, 0.9);
+  height: 220px;
+}
+
+.pricing-item.resurgence:hover {
+  background-color: rgba(77, 144, 254, 0.9);
+  height: 310px;
+}
+
+.pricing-item.infinity:hover {
+  background-color: rgba(77, 144, 254, 0.9);
+  height: 410px;
+}
+
+.pricing-item-content {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.pricing-item:hover .pricing-item-content {
+  opacity: 1;
+}

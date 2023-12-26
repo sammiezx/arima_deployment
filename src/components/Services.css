@@ -1,20 +1,51 @@
-
+/* src/styles/Services.css */
 .services {
-  background-color: rgba(135, 44, 246, 0.052); /* Update background color */
-  padding: 20px;
-  margin: 20px;
-  border-radius: 10px;
+  background-color: #ffffff00;
   text-align: center;
 }
 
 .service-item {
-  margin-bottom: 20px;
-  background-color: rgba(108, 63, 255, 0.146); /* Add a background color to service items */
-  padding: 15px;
-  border-radius: 8px;
-  transition: background-color 0.3s ease; /* Add smooth color transition on hover */
+  background-color: #ffffff3d;
+  /* padding: 20px; */
+  /* border-radius: 10px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* margin: 0 20px; */
+  transition: transform 0.3s ease-in-out;
 }
 
 .service-item:hover {
-  background-color: rgba(77, 144, 254, 0.9); /* Change service item background color on hover */
+  transform: translateY(-2px);
+}
+
+/* Carousel Styling */
+.slick-prev,
+.slick-next {
+  font-size: 2em;
+  color: #33333300;
+}
+
+.slick-prev {
+  left: -40px;
+}
+
+.slick-next {
+  right: -40px;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+  color: #555;
+}
+
+.slick-dots {
+  bottom: -30px;
+}
+
+.slick-dots li button:before {
+  font-size: 15px;
+  color: #333;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #555;
 }

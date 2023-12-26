@@ -1,8 +1,9 @@
 header {
-    background-color: rgba(1, 35, 89, 0.563); /* Update header background color */
+    /* background-color: rgba(1, 35, 89, 0.563);  */
+    background-image: url('../data/bg/home_bg.jpeg');
     color: #ffffff;
     padding: 20px;
-    border-bottom: 1px solid #ddd;
+    /* border-bottom: 1px solid #ddd; */
     width: 100%;
   }
   
@@ -23,6 +24,7 @@ header {
     padding: 10px 20px;
     font-size: 1.2em; /* Increase font size for the button */
     border: none;
+    border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease; /* Add smooth color transition on hover */
   }
@@ -41,3 +43,43 @@ header {
     color: #333333; /* Set footer text color to a dark shade */
   }
   
+/* src/components/FloatingImage.css */
+
+.floating-image-container {
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  width: 160px; /* Adjust the width as needed */
+  height: 160px; /* Adjust the height as needed */
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.floating-image-container img.arima-logo {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* Adjusted to contain */
+  border-radius: 50%;
+}
+
+
+@media screen and (max-width: 768px) {
+  .floating-image-container {
+    position: fixed;
+    top: 5%;
+    right: 15%;
+    width: 160px; /* Adjust the width as needed */
+    height: 160px; /* Adjust the height as needed */
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .floating-image-container img.arima-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Adjusted to contain */
+    border-radius: 50%;
+  }
+}

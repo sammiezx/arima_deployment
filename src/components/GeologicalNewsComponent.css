@@ -1,0 +1,42 @@
+/* src/components/GeologicalNewsComponent.css */
+.geological-news-container {
+  background-color: #fcfcfc;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.geological-news-container h2 {
+  color: #3498db;
+}
+
+.loading-message {
+  color: #666;
+}
+
+.no-news-message {
+  color: #e74c3c;
+}
+
+/* Customize the styling for the geological news list as needed */
+.geological-news-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.geological-news-list li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.geological-news-list li:hover {
+  background-color: #f9f9f9;
+}

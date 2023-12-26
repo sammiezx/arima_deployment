@@ -1,0 +1,74 @@
+/* src/styles/Navbar.css */
+.navbar {
+  background-color: #ec151546;
+  padding: 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  width: 70%; /* Make the navbar full-width */
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -2.28%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 30px 48px 0; /* Adjust the width and height of the triangle */
+  border-color: transparent #ec151546 transparent transparent; /* Set the triangle color */
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center; /* Center align the links for mobile view */
+}
+
+.navbar li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.navbar li a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 10px; /* Adjust padding for better spacing */
+  transition: color 0.3s ease;
+}
+
+.navbar li a:hover {
+  color: #3498db;
+}
+
+/* Add a margin-top to create space for the content below the navbar */
+.content-below-navbar {
+  margin-top: 60px; /* Adjust the margin-top value as needed */
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 10px; /* Adjust padding for smaller screens */
+    position: fixed;
+    background-color: #ff2c2c73; /* Add background color for mobile view */
+    top: 34%;
+    right:20%;
+    border-radius: 10%;
+    height: 160px; /* Set a fixed height for mobile view */
+    width: 70px;
+  }
+
+  .navbar::before {
+    display: none; /* Hide the triangular shape for mobile view */
+  }
+
+  .navbar li {
+    display: block;
+    margin: 10px 0;
+  }
+}

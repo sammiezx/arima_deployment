@@ -1,0 +1,27 @@
+/* src/components/AirQualityComponent.css */
+.air-quality-container {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.air-quality-container h2 {
+  color: #3498db;
+}
+
+.loading-message {
+  color: #666;
+}
+
+.error-message {
+  color: #e74c3c;
+}
+
+/* Customize the styling for the air quality data as needed */
+.air-quality-data {
+  /* Add your styles for displaying air quality data */
+}

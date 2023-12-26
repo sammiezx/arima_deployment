@@ -1,0 +1,41 @@
+/* Career.css */
+
+.career-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* h2 {
+    font-size: 2.5em;
+    color: #333;
+  }
+  
+  h3 {
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    font-size: 1.1em;
+    color: #444;
+    margin-bottom: 10px;
+  }
+   */
+  .how-to-apply, .why-join {
+    margin-top: 20px;
+  }
+  
+  /* Add any additional styling as needed */
+  
