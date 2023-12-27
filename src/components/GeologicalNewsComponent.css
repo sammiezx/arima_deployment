@@ -1,9 +1,9 @@
 /* src/components/GeologicalNewsComponent.css */
 .geological-news-container {
-  background-color: #fcfcfc;
+  background-image: url('../data/content/geo.jpeg');
   border: 1px solid #ddd;
   border-radius: 10px;
-  padding: 20px;
+  padding: 100px; /* Adjust the top and bottom padding */
   margin: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   text-align: center;

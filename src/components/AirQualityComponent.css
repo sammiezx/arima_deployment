@@ -1,10 +1,11 @@
 /* src/components/AirQualityComponent.css */
 .air-quality-container {
-  background-color: #f4f4f4;
-  border: 1px solid #ddd;
+  /* background-color: #f4f4f4; */
+  background-image: url('../data/content/air.jpeg');
+  /* border: 1px solid #ddd; */
   border-radius: 10px;
-  padding: 20px;
-  margin: 20px;
+  padding: 100px;
+  /* margin: 20px; */
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
 }

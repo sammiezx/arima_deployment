@@ -11,7 +11,7 @@ const AsteroidReport = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('https://5fac-113-199-169-16.ngrok-free.app', {
+        const response = await axios.get('https://90e9-113-199-223-74.ngrok-free.app', {
           headers: {
             'ngrok-skip-browser-warning': '7',
           },

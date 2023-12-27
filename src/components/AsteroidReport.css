@@ -2,9 +2,10 @@
 
 /* Container styles */
 .asteroid-report-container {
-  background-color: #eb32327f;
+  /* background-color: #eb32327f; */
+  background-image: url('../data/content/asteroid.jpeg');
   border-radius: 8px;
-  padding: 20px;
+  padding: 50px;
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin: 20px;
