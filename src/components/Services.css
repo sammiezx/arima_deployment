@@ -9,8 +9,31 @@
   /* padding: 20px; */
   /* border-radius: 10px; */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
   /* margin: 0 20px; */
-  transition: transform 0.3s ease-in-out;
+}
+
+.service-item h3 {
+  color: rgba(0, 64, 255, 0.693);
+  shape-rendering: geometricPrecision;
+}
+
+.service-item strong {
+  color: rgba(0, 64, 255, 0.693);
+}
+
+
+.title {
+  float: left;
+  text-align: left;
+  margin-left: 10%;
+}
+
+.body {
+  /* right: 2%; */
+  float: right;
+  text-align: left;
+  margin-right: 10%;
 }
 
 .service-item:hover {
@@ -48,4 +71,31 @@
 
 .slick-dots li.slick-active button:before {
   color: #555;
+}
+
+ul {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+
+.fancy-list {
+  list-style-type: none; /* Remove default list-style */
+  padding: 0; /* Remove default padding */
+}
+
+.fancy-list li {
+  position: relative;
+  padding-left: 25px; /* Adjust the padding to create space for the custom bullet */
+}
+
+.fancy-list li::before {
+  content: "➔"; /* Unicode character for a right-pointing arrow (you can replace it with an image or another character) */
+  color: rgba(0, 64, 255, 0.693);
+  font-size:25px; /* Adjust the font size of the arrow */
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 5px; /* Adjust the spacing between the arrow and the text */
 }

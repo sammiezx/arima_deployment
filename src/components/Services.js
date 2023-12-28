@@ -104,16 +104,20 @@ const Services = () => {
       <Slider {...settings}>
         {servicesData.map((service, index) => (
           <div key={index} className="service-item">
-            <h3>{service.title}</h3>
-            <p><strong>Objective:</strong> {service.objective}</p>
-            <p><strong>Service:</strong> {service.service}</p>
-            <div>
-              <strong>Deliverables:</strong>
-              <ul>
-                {service.deliverables.map((item, i) => (
-                  <li key={i}>{item}</li>
-                ))}
-              </ul>
+            <div className='title'>
+              <h3>{service.title}</h3>
+              <p><strong>Objective</strong> {service.objective}</p>
+              <p><strong>Service</strong> {service.service}</p>
+            </div>
+            <div className='body'>
+              <div>
+                <h3>Deliverables</h3>
+                <ul className='fancy-list'>
+                  {service.deliverables.map((item, i) => (
+                    <li key={i}>{item}</li>
+                  ))}
+                </ul>
+              </div>
             </div>
           </div>
         ))}

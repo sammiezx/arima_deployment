@@ -61,6 +61,7 @@ a {
   color: #ffffff; /* Set link color to white */
   text-decoration: none;
   transition: color 0.3s ease; /* Add smooth color transition on hover */
+  font-weight: bold;
 }
 
 a:hover {
@@ -69,4 +70,10 @@ a:hover {
 
 h1, h2, h3 {
   color: #ffffff; /* Set heading colors to white */
+  font-weight: bold;
+}
+
+p {
+  color: #ffffff; /* Set heading colors to white */
+  font-weight: bold;
 }
