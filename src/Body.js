@@ -6,7 +6,7 @@ import Pricing from './components/Pricing';
 import Filler from './components/Filler';
 import Clients from './components/Clients';
 import Contact from './components/Contact';
-import CarouselContainer from './components/CarouselContainer';
+// import CarouselContainer from './components/CarouselContainer';
 
 const Body = () => {
   return (
