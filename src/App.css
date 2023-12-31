@@ -50,7 +50,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif; /* Add the chosen font family */
-  background-image: url('./data/bg/background.jpg');
+  background-image: url('./data/bg/purple4.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

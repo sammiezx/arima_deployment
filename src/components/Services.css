@@ -14,12 +14,12 @@
 }
 
 .service-item h3 {
-  color: rgba(0, 64, 255, 0.693);
+  color: #24007a;
   shape-rendering: geometricPrecision;
 }
 
 .service-item strong {
-  color: rgba(0, 64, 255, 0.693);
+  color: #24007a;
 }
 
 
@@ -91,7 +91,7 @@ ul {
 
 .fancy-list li::before {
   content: "➔"; /* Unicode character for a right-pointing arrow (you can replace it with an image or another character) */
-  color: rgba(0, 64, 255, 0.693);
+  color: #24007a;
   font-size:25px; /* Adjust the font size of the arrow */
   position: absolute;
   left: 0;

@@ -5,7 +5,7 @@
   max-width: 90%;
   margin: 50px auto;
   padding: 20px;
-  background-color: #33c4f440;
+  background-color: #8229ffab;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   text-align: justify;
@@ -22,7 +22,7 @@
 }
 
 .filler-container h3 {
-  color: rgba(0, 64, 255, 0.693);
+  color: rgb(255, 255, 255);
   font-size: 1.5em;
   margin-bottom: 5px;
 }

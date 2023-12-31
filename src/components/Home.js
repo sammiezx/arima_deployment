@@ -33,9 +33,7 @@ const Home = () => {
         <button className="cta-button" onClick={handleGetStartedClick}>
         Get Started
       </button>
-      </section>
-
-      
+      </section>      
     </div>
   );
 };
