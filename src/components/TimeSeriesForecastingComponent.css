@@ -1,0 +1,106 @@
+.forecasting-container {
+    background-color: #1a1a1a; /* Dark background */
+    color: #fff; /* White text color */
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Soft shadow effect */
+  }
+  
+  .forecasting-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .input-section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    
+  }
+  
+  .input-section input[type="file"] {
+    position: relative; /* Position relative for icon placement */
+    width: 30px; /* Set initial width for icon */
+    padding: 15px;
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff; /* White text color */
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: width 0.3s ease, visibility 0s linear 0.3s; /* Transition effect for width */
+    visibility: hidden; /* Initially hide the input */
+    opacity: 0; /* Initially hide the input */
+    margin-right: 10px; /* Add space between the input and select */
+  }
+  
+  /* Show the input/browse area when the upload icon is hovered */
+  .upload-icon:hover + input[type="file"],
+  .input-section input[type="file"]:hover {
+    width: 300px; /* Expand width on hover */
+    visibility: visible;
+    opacity: 1;
+    background-color: #333; /* Darker background on hover */
+    color: #fff; /* White text color on hover */
+  }
+  
+  /* Styles for the upload button icon */
+  .input-section input[type="file"]::after,
+  .upload-icon::after {
+    content: '\1F4C2'; /* Unicode for upload icon */
+    font-size: 1.5rem;
+    margin-left: 10px;
+    transition: margin-left 0.3s ease; /* Transition effect for margin */
+  }
+  
+  /* Hover styles for the upload button icon */
+  .upload-icon:hover + input[type="file"]::after,
+  .input-section input[type="file"]:hover::after {
+    margin-left: 15px; /* Adjust margin on hover */
+  }
+  
+  .input-section select {
+    margin-right: 20px; /* Adjust margin-right for the select */
+    padding: 15px;
+    border: 2px solid #007bff; /* Blue border */
+    border-radius: 10px;
+    background-color: transparent;
+    color: #fff; /* White text color */
+    font-size: 1.2rem;
+  }
+  
+  .input-section button {
+    background-color: #007bff; /* Blue button color */
+    color: #fff; /* White text color */
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .input-section button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .result-section {
+    margin-top: 30px;
+  }
+  
+  .result-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .upload-icon {
+    font-size: 24px; /* Adjust the size of the icon */
+    margin-right: 10px; /* Add some space between the icon and the input */
+    color: #ccc; /* Grey color */
+  }
+  
+  .upload-icon:hover {
+    color: rgb(10, 54, 10); /* Green color on hover */
+  }
+  

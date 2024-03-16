@@ -1,0 +1,31 @@
+.tools-container {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark background with transparency */
+    color: #fff; /* White text */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+  }
+  
+  .tools-heading {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .tool-box {
+    background-color: rgba(0, 0, 0, 0.5); /* Darker background for tool boxes */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  
+  .tool-title {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .tool-description {
+    font-size: 1.4rem;
+    color: #ccc; /* Light gray text color */
+  }
+  
