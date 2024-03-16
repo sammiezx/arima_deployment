@@ -30,9 +30,9 @@ const BarPlot = ({ data }) => {
       <Plot
         data={plotData}
         layout={{
-          width: 1700, // Adjusted width
+          width: 1300, // Adjusted width
           height: 400, // Adjusted height
-          title: 'TIME SERIES PLOT',
+          title: 'Mr. Forecast',
           xaxis: {
             title: 'TIME',
             linecolor: 'white', // Set x-axis line color

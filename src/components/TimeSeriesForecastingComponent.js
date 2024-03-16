@@ -54,7 +54,7 @@ const TimeSeriesForecastingComponent = () => {
 
   return (
     <div className="forecasting-container">
-      <h2>Mr. Forecast</h2>
+      {/* <h2>Mr. Forecast</h2> */}
       <div className="input-section">
         {/* Download icon */}
         <FiUpload className="upload-icon" />
